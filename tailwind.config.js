@@ -2,12 +2,14 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      sans: ["Popins", "sans-serif"],
+    },
     extend: {
       backgroundImage: {
-        "home": "url('/assets/bg.png')"
-      }
+        home: "url('/assets/bg.png')",
+      },
     },
   },
   plugins: [],
-}
-
+};
